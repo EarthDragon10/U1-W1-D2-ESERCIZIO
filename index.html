@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <img src="./assets/img/logo.svg" />
         <h1>Epicode - Il Blog dei developers</h1>
     </header>
@@ -22,9 +22,99 @@
         </ul>
     </nav>
     <main>
-        <section></section>
+
+        <h2>Come creare un template per i post</h2>
+        <h3>di <em>Mario Rossi</em> - <span class="underline">pubblicato il 25-10-2020</span></h3>
+
+        <section id="article">
+
+            <p>La prima cosa da fare é suddividere in blocchi logici la pagina, identificando le parti comuni da
+                applicare a tutte le pagine.</p>
+
+            <p>Le varie aree saranno quindi suddivise in:</p>
+
+            <ul>
+
+                <li>Contenuti di intestazioni del tag &lt;header&gt;</li>
+                <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
+                <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+                <li>Formattazione del codice</li>
+            </ul>
+
+            <p>Il testo dell'articolo dovrá essere formattato per identificare tutte le parti da selezionare con CSS.
+            </p>
+            <p>Perció i passi saranno:</p>
+            <ul>
+                <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
+                <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso.</li>
+                <li>Applicare gli stili CSS.</li>
+                <li>L'applicazione di stili CSS é cresciuta negli anni fino a raggiungere la diffusione pressoché
+                    totale.</li>
+            </ul>
+            <table>
+                <caption>Diffusione dei CSS</caption>
+                <thead>
+
+                    <tr>
+                        <th>Anno</th>
+                        <th>% di utilizzo</th>
+                        <th>Supporto browsers</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>2000</td>
+                        <td>20%</td>
+                        <td>17%</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>35%</td>
+                        <td>22%</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45%</td>
+                        <td>42%</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80%</td>
+                        <td>51%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>100%</td>
+                        <td>76%</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <p>Un test di validazione potrá essere fatto tramite il tool online <a href="boh">Link</a> dedicato allo
+                scopo.</p>
+            <p>Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo di essere stati dei veri developers
+                come loro:</p>
+            <video src="https://youtu.be/Jqz-OyVQBJ8" controls="controls">Il tuo broswer non supporta HTML5</video>
+
+            <form>
+                <fieldset>
+                    <legend>Vuoi rimanere aggiornato su altre novitá del blog? Iscriviti alla nostra newsletter:
+                    </legend>
+                    <input type="email" name="email" id="email" placeholder="Inserisci l'email">
+
+                    <button type="submit">Iscriviti!</button>
+                </fieldset>
+
+            </form>
+
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
