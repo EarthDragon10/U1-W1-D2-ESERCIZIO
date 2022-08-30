@@ -1,11 +1,44 @@
+/* NAV */
+
 nav {
     border: 1px solid black;
+    background-color:deeppink;
 }
 
-ul {
-    list-style: none;
+/* MAIN */
+
+p {
+    font-size: 1.2em;
 }
 
 .underline {
     text-decoration: underline;
+}
+
+/* FORM */
+
+form {
+    margin: 20px;
+}
+
+/* TABLE */
+table {
+    border: 1px black solid;
+}
+
+.thead-style {
+    text-align: left;
+}
+th {
+    font-size: 1.2em;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* FOOTER */
+
+footer > ul {
+    list-style: none;
 }
